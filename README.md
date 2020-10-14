@@ -24,7 +24,7 @@ Download the backdoored version from the bellow given link:<br>
 
 # Learn More (Resources)
 
-<a href="https://www.aldeid.com/wiki/Exploits/proftpd-1.3.3c-backdoor" target="_blank">https://www.aldeid.com/wiki/Exploits/proftpd-1.3.3c-backdoor</a>
+<a href="https://www.aldeid.com/wiki/Exploits/proftpd-1.3.3c-backdoor" target="_blank">https://www.aldeid.com/wiki/Exploits/proftpd-1.3.3c-backdoor</a><br>
 <a href="https://www.rapid7.com/db/modules/exploit/unix/ftp/proftpd_133c_backdoor" target="_blank">https://www.rapid7.com/db/modules/exploit/unix/ftp/proftpd_133c_backdoor</a>
 
 
