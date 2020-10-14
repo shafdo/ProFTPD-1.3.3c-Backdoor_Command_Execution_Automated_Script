@@ -16,6 +16,13 @@ Make sure you have netcat installed on your attacker system. To install the requ
 
 <img src="https://media.giphy.com/media/H0MrdSE07wtLGZOF8Q/giphy.gif">
 
+# How the program works
+
+In this section, I'm shprt level understanding on how my program works. My program has 2 methods (OOP) 
+<pre>1. exploit() => Here the exploitation and planting of payload occurs<br>2. shell() => The actual Netcat listener is set up.</pre>
+
+Both of these methods are run on 2 different threads simultaneously. Due to the delay in the server response the exploit() method gets delayed so the shell() method gets executed which successfully setup our listener. So after the server has responded (which takes a little time) the program sends the backdoor passphrase which is "ACIDBITCHEZ" and injects the reverse shell payload so we get a connection on our listener. This shell runs with root privileges.
+
 # Download Proftpd 1.3.3c (Backdoored Version)
 
 Download the backdoored version from the bellow given link:<br>
